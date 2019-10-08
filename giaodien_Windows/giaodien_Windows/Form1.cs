@@ -15,5 +15,35 @@ namespace giaodien_Windows
         {
             InitializeComponent();
         }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_taophieu f = new Frm_taophieu();
+            f.ShowDialog();
+        }
+
+        private void barButtonItem9_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_dichvu f = new Frm_dichvu();
+            f.ShowDialog();
+        }
+
+        private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_baocao f = new Frm_baocao();
+            f.ShowDialog();
+        }
+
+        private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_nhanvien f = new Frm_nhanvien();
+            f.ShowDialog();
+        }
+
+        private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_khachhang f = new Frm_khachhang();
+            f.ShowDialog();
+        }
     }
 }

@@ -20,7 +20,7 @@ namespace giaodien_Windows
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(new Frm_taophieu());
+            Application.Run(new Form1());
         }
     }
 }

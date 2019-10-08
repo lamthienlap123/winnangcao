@@ -75,3 +75,7 @@ D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Window
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.exe.licenses
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.exe
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.pdb
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_baocao.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_dichvu.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_khachhang.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_nhanvien.resources

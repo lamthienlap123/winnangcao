@@ -59,11 +59,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_baocao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_baocao.Designer.cs">
+      <DependentUpon>Frm_baocao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_dichvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_dichvu.Designer.cs">
+      <DependentUpon>Frm_dichvu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_hangton.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_hangton.Designer.cs">
       <DependentUpon>Frm_hangton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_khachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_khachhang.Designer.cs">
+      <DependentUpon>Frm_khachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_nhanvien.Designer.cs">
+      <DependentUpon>Frm_nhanvien.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_taophieu.cs">
       <SubType>Form</SubType>
@@ -76,8 +100,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_baocao.resx">
+      <DependentUpon>Frm_baocao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_dichvu.resx">
+      <DependentUpon>Frm_dichvu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_hangton.resx">
       <DependentUpon>Frm_hangton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_khachhang.resx">
+      <DependentUpon>Frm_khachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_nhanvien.resx">
+      <DependentUpon>Frm_nhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_taophieu.resx">
       <DependentUpon>Frm_taophieu.cs</DependentUpon>

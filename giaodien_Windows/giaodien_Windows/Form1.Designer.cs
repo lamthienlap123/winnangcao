@@ -93,8 +93,9 @@
             // 
             this.barButtonItem1.Caption = "Tạo Phiếu";
             this.barButtonItem1.Id = 1;
-            this.barButtonItem1.ImageUri.Uri = "Add";
+            this.barButtonItem1.ImageOptions.ImageUri.Uri = "Add";
             this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -125,18 +126,21 @@
             this.barButtonItem5.Caption = "Quản Lý Nhân Viên";
             this.barButtonItem5.Id = 6;
             this.barButtonItem5.Name = "barButtonItem5";
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // barButtonItem6
             // 
             this.barButtonItem6.Caption = "Quản Lý Khách Hàng";
             this.barButtonItem6.Id = 7;
             this.barButtonItem6.Name = "barButtonItem6";
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // barButtonItem7
             // 
             this.barButtonItem7.Caption = "Danh Thu";
             this.barButtonItem7.Id = 8;
             this.barButtonItem7.Name = "barButtonItem7";
+            this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -149,6 +153,7 @@
             this.barButtonItem9.Caption = "Sửa Bảng Giá";
             this.barButtonItem9.Id = 10;
             this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem9_ItemClick);
             // 
             // barButtonItem10
             // 
