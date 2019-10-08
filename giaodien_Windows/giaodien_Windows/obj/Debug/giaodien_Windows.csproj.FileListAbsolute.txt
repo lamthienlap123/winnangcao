@@ -1,0 +1,10 @@
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\bin\Debug\giaodien_Windows.exe
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\bin\Debug\giaodien_Windows.pdb
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Form1.resources
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_taophieu.resources
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Properties.Resources.resources
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.exe.licenses
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.exe
+C:\Users\ASUS\Documents\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.pdb
