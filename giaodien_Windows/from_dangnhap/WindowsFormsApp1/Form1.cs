@@ -59,11 +59,14 @@ namespace WindowsFormsApp1
             if (CauHinh.check_congif() == 1)
             {
                 MessageBox.Show("Chuỗi cấu hình không tồn tại");// Xử lý cấu hình
-
+                Frm_cauhinh cauhinh = new Frm_cauhinh();
+                cauhinh.Show();
             }
             if (CauHinh.check_congif() == 2)
             {
                 MessageBox.Show("Chuỗi cấu hình không phù hợp");// Xử lý cấu hình
+                Frm_cauhinh cauhinh = new Frm_cauhinh();
+                cauhinh.Show();
             }
         }
     }

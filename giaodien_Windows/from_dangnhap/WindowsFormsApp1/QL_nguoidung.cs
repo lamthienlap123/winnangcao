@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-
+using System.Data.Sql;
 namespace WindowsFormsApp1
 {
     class QL_nguoidung
@@ -29,12 +29,16 @@ namespace WindowsFormsApp1
         }
         public int check_user(string user, string matkhau)
         {
-            SqlDataAdapter dauser = new SqlDataAdapter("select * from DN where taikhoan = '" + user + "'" + "and pass = '" + matkhau + "'", Properties.Settings.Default.dangnhap);
+            SqlDataAdapter dauser = new SqlDataAdapter("select * from QL_NguoiDung where TenDangNhap = '" + user + "'" + "and MatKhau = '" + matkhau + "'", Properties.Settings.Default.dangnhap);
             DataTable dt = new DataTable();
             dauser.Fill(dt);
             if (dt.Rows.Count == 0)
                 return 0;//user không tồn tại
-            return 1;
+            else if (dt.Rows[0][2] == null || dt.Rows[0][2].ToString() == "0")
+            {
+                return 1; // Không hoạt động
+            }
+            return 2;// Đăng nhập thành công
         }
         public DataTable GetServerName()
         {
@@ -48,7 +52,7 @@ namespace WindowsFormsApp1
             DataTable dt = new DataTable();
             try
             {
-                SqlDataAdapter da = new SqlDataAdapter("SELECT name FROMsys.databases", "Data Source = " + pServerName + "; Initial Catalog = " + "master" + "; User ID = " + pUser + "; pwd = " + pPass + "");
+                SqlDataAdapter da = new SqlDataAdapter("SELECT name FROM sys.databases", "Data Source = " + pServerName + "; Initial Catalog = " + "master" + "; User ID = " + pUser + "; pwd = " + pPass + "");
                 da.Fill(dt);
                 foreach (System.Data.DataRow row in dt.Rows)
                 {

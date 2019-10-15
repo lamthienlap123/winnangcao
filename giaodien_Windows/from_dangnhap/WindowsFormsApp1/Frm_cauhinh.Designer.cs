@@ -63,6 +63,7 @@
             this.cbo_sever.Name = "cbo_sever";
             this.cbo_sever.Size = new System.Drawing.Size(198, 21);
             this.cbo_sever.TabIndex = 2;
+            this.cbo_sever.DropDown += new System.EventHandler(this.cbo_sever_DropDown);
             // 
             // btn_save
             // 
@@ -72,6 +73,7 @@
             this.btn_save.TabIndex = 3;
             this.btn_save.Text = "Lưu";
             this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // cbo_database
             // 
@@ -80,6 +82,7 @@
             this.cbo_database.Name = "cbo_database";
             this.cbo_database.Size = new System.Drawing.Size(198, 21);
             this.cbo_database.TabIndex = 4;
+            this.cbo_database.DropDown += new System.EventHandler(this.cbo_database_DropDown);
             // 
             // txt_pass
             // 

@@ -16,8 +16,10 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_cauhinh());
+            Application.Run(new Form1());
         }
+        public static Form2 mainForm = null;
+        public static Form1 DangNhap = null;
 
     }
 }
