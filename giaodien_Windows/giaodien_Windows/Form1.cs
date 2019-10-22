@@ -45,5 +45,9 @@ namespace giaodien_Windows
             Frm_khachhang f = new Frm_khachhang();
             f.ShowDialog();
         }
+
+        private void barButtonItem1_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+        }
     }
 }
