@@ -1,0 +1,7 @@
+D:\GitHub\winnangcao\giaodien_Windows\BAL\bin\Debug\BAL.dll
+D:\GitHub\winnangcao\giaodien_Windows\BAL\bin\Debug\BAL.pdb
+D:\GitHub\winnangcao\giaodien_Windows\BAL\bin\Debug\DAL.dll
+D:\GitHub\winnangcao\giaodien_Windows\BAL\bin\Debug\DAL.pdb
+D:\GitHub\winnangcao\giaodien_Windows\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+D:\GitHub\winnangcao\giaodien_Windows\BAL\obj\Debug\BAL.dll
+D:\GitHub\winnangcao\giaodien_Windows\BAL\obj\Debug\BAL.pdb

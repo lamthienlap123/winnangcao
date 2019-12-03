@@ -43,26 +43,62 @@ namespace giaodien_Windows
 
         private void barButtonItem9_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Frm_dichvu f = new Frm_dichvu();
-            f.ShowDialog();
+            Form frm = kiemtraform(typeof(Frm_dichvu));
+            if (frm == null)
+            {
+                Frm_dichvu forms = new Frm_dichvu();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
         }
 
         private void barButtonItem7_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Frm_baocao f = new Frm_baocao();
-            f.ShowDialog();
+            Form frm = kiemtraform(typeof(Frm_baocao));
+            if (frm == null)
+            {
+                Frm_baocao forms = new Frm_baocao();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
         }
 
         private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Frm_nhanvien f = new Frm_nhanvien();
-            f.ShowDialog();
+            Form frm = kiemtraform(typeof(Frm_nhanvien));
+            if (frm == null)
+            {
+                Frm_nhanvien forms = new Frm_nhanvien();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
         }
 
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Frm_khachhang f = new Frm_khachhang();
-            f.ShowDialog();
+            Form frm = kiemtraform(typeof(Frm_khachhang));
+            if (frm == null)
+            {
+                Frm_khachhang forms = new Frm_khachhang();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
         }
 
 

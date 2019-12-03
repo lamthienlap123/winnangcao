@@ -25,7 +25,7 @@ namespace WindowsFormsApp1.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=DB;User ID=sa;Password=123456")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string dangnhap {
             get {
                 return ((string)(this["dangnhap"]));

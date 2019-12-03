@@ -12,6 +12,8 @@ namespace giaodien_Windows
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        public static Form1 mainForm = null;
+        public static Frm_DangNhap DangNhap = null;
         [STAThread]
         static void Main()
         {
@@ -20,7 +22,7 @@ namespace giaodien_Windows
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(new Form1());
+            Application.Run(new Frm_taophieu());
         }
     }
 }

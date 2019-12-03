@@ -1,0 +1,6 @@
+D:\GitHub\winnangcao\giaodien_Windows\DAL\bin\Debug\DAL.dll.config
+D:\GitHub\winnangcao\giaodien_Windows\DAL\bin\Debug\DAL.dll
+D:\GitHub\winnangcao\giaodien_Windows\DAL\bin\Debug\DAL.pdb
+D:\GitHub\winnangcao\giaodien_Windows\DAL\obj\Debug\DAL.dll
+D:\GitHub\winnangcao\giaodien_Windows\DAL\obj\Debug\DAL.pdb
+D:\GitHub\winnangcao\giaodien_Windows\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
