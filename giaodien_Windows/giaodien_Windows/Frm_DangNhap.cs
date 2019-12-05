@@ -31,6 +31,7 @@ namespace giaodien_Windows
             // Account had been disabled
             Form1 frm1 = new Form1();
             frm1.Show();
+            //this.Hide();
         }
         private void btn_dangnhap_click(object sender, EventArgs e)
         {
@@ -53,7 +54,6 @@ namespace giaodien_Windows
             if (CauHinh.check_congif() == 0)
 
             {
-
                 ProcessLogin();// Cấu hình phù hợp xử lý đăng nhập
             }
 

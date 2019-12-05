@@ -138,6 +138,7 @@
             this.btn_lammoi.Id = 4;
             this.btn_lammoi.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_lammoi.ImageOptions.Image")));
             this.btn_lammoi.Name = "btn_lammoi";
+            this.btn_lammoi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_lammoi_ItemClick);
             // 
             // bar3
             // 

@@ -40,6 +40,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(600, 214);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cell_click);
             // 
             // button1
             // 
@@ -49,6 +50,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Đã Giặt";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btn_click);
             // 
             // Frm_hangton
             // 
@@ -59,6 +61,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Frm_hangton";
             this.Text = "Frm_hangton";
+            this.Load += new System.EventHandler(this.loaddulieu);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

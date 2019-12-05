@@ -80,6 +80,7 @@
             this.txt_matkhau.Name = "txt_matkhau";
             this.txt_matkhau.Size = new System.Drawing.Size(244, 21);
             this.txt_matkhau.TabIndex = 7;
+            this.txt_matkhau.UseSystemPasswordChar = true;
             // 
             // txt_taikhoan
             // 

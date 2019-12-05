@@ -67,12 +67,13 @@ namespace BAL
             dh.MaKho = makho;
             qltg.SubmitChanges();
         }
-        public void themchitietdonhang(int soluong,string mahd,string madv)
+        public void themchitietdonhang(int soluong,string mahd,string madv,float thanhtien)
         {
             CTDONHANG ctdh = new CTDONHANG();
             ctdh.SoLuong = soluong;
             ctdh.MaDH = mahd;
             ctdh.MaDV = madv;
+            ctdh.ThanhTien = thanhtien;
             qltg.CTDONHANGs.InsertOnSubmit(ctdh);
             qltg.SubmitChanges();
         }
@@ -83,11 +84,12 @@ namespace BAL
             qltg.CTDONHANGs.DeleteOnSubmit(ctdh);
             qltg.SubmitChanges();
         }
-        public void SuaCTDH(string madh, string madv, int sl)
+        public void SuaCTDH(int sl,string madh, string madv,float thanhtien)
         {
             CTDONHANG ctdh = new CTDONHANG();
             ctdh = qltg.CTDONHANGs.Where(t => t.MaDH == madh && t.MaDV == madv).FirstOrDefault();
             ctdh.SoLuong =sl;
+            ctdh.ThanhTien = thanhtien;
             qltg.SubmitChanges();
         }
         public List<CTDONHANG> loadchitietdonhang()
@@ -102,6 +104,10 @@ namespace BAL
         {
             return qltg.KHACHHANGs.Where(t => t.MaKH == pmakh).ToList<KHACHHANG>();
         }
+        public List<NHANVIEN> getNVtheoma(string pmanv)
+        {
+            return qltg.NHANVIENs.Where(t => t.MaNV == pmanv).ToList<NHANVIEN>();
+        }
         public string LayGiaBan(string Mdv)
         {
             string a = "";
@@ -114,8 +120,21 @@ namespace BAL
             foreach (var r in ma)
             {
                 a = r.DonGia.ToString();
+                
             }
             return a;
+        }
+        public void capnhattongtien(string madh, float tt)
+        {
+            DONHANG dh = new DONHANG();
+            dh = qltg.DONHANGs.Where(t => t.MaDH == madh).FirstOrDefault();
+
+            dh.ThanhTien = tt;
+
+
+
+
+            qltg.SubmitChanges();
         }
     }
 }

@@ -111,3 +111,8 @@ D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\bin\Debug\ja\DevExpress.X
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.exe
 D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.pdb
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_nguoidung.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_manhinh.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_nhomnguoidung.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_themnguoidungvaonhom.resources
+D:\GitHub\winnangcao\giaodien_Windows\giaodien_Windows\obj\Debug\giaodien_Windows.Frm_TraHang.resources

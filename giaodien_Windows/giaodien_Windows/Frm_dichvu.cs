@@ -21,6 +21,10 @@ namespace giaodien_Windows
         
         private void Frm_dichvu_Load(object sender, EventArgs e)
         {
+
+            txt_madv.ResetText();
+            txt_tdv.ResetText();
+            txt_dongia.ResetText();
             btn_them.Enabled = true;
             btn_xoa.Enabled = false;
             btn_sua.Enabled = false;
@@ -101,5 +105,11 @@ namespace giaodien_Windows
                 }
             
         }
+
+        private void btn_lammoi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm_dichvu_Load(sender, e);
+        }
+
     }
 }

@@ -46,6 +46,8 @@
     <Compile Include="BALKho.cs" />
     <Compile Include="BALLapPhieu.cs" />
     <Compile Include="BALNhanVien.cs" />
+    <Compile Include="BALQuanLy.cs" />
+    <Compile Include="BALTraHang.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,9 +10,21 @@ namespace giaodien_Windows
 {
     public partial class Form1 : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+        public static string idlogin;
+
         public Form1()
         {
             InitializeComponent();
+            DisEndMenuLogin(true, idlogin);
+
+        }
+        public void DisEndMenuLogin(bool e, string _idLogin)
+        {
+            //btn_DN.Enabled = e;
+            //btn_DX.Enabled = !e;
+            //Page_TT.Visible = !e;
+            //Page_DM.Visible = !e;
+            //Page_NV.Visible = !e;
         }
         private Form kiemtraform(Type ftype)
         {
@@ -101,6 +113,95 @@ namespace giaodien_Windows
             }
         }
 
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Frm_DangNhap dn = new Frm_DangNhap();
+            //dn.Show();
+        }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form frm = kiemtraform(typeof(Frm_TraHang));
+            if (frm == null)
+            {
+                Frm_TraHang forms = new Frm_TraHang();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form frm = kiemtraform(typeof(Frm_hangton));
+            if (frm == null)
+            {
+                Frm_hangton forms = new Frm_hangton();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
+        }
+
+        private void barButtonItem10_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void barButtonItem13_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form frm = kiemtraform(typeof(Frm_nguoidung));
+            if (frm == null)
+            {
+                Frm_nguoidung forms = new Frm_nguoidung();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
+        }
+
+        private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form frm = kiemtraform(typeof(Frm_nhomnguoidung));
+            if (frm == null)
+            {
+                Frm_nhomnguoidung forms = new Frm_nhomnguoidung();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
+        }
+
+        private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Form frm = kiemtraform(typeof(Frm_themnguoidungvaonhom));
+            if (frm == null)
+            {
+                Frm_themnguoidungvaonhom forms = new Frm_themnguoidungvaonhom();
+                forms.MdiParent = this;
+                forms.Show();
+            }
+            else
+            {
+                frm.Activate();
+            }
+        }
     }
 }
